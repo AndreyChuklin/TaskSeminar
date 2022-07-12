@@ -45,35 +45,35 @@ void Zadacha2()
 
 void Zadacha3()
 {
-    Console.WriteLine("Введите любое число: ");
-    int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите любое число: ");
+int number = Convert.ToInt32(Console.ReadLine());
 
-    if (number % 2 == 0)
-    {
-        Console.WriteLine("Это четное число " + number);
-    }
-    else
-    {
-        Console.WriteLine("Это не четное число");
-    }
+if (number % 2 == 0)
+{
+    Console.WriteLine("Это четное число " + number);
+}
+else
+{
+    Console.WriteLine("Это не четное число");
+}
 }
 
 void Zadacha4()
 {
-    int number = 99;
-    int start = 0;
+int number = 99;
+int start = 0;
 
-    while (start <= number)
-    {
-        Console.Write(start + "  ");
+while (start <= number)
+{
+    Console.Write(start + "  ");
 
-        start += 1;
+    start += 1;
 
-        start++;
+    start++;
 
-    }
+}
 
-    Console.WriteLine();
+Console.WriteLine();
 }
 
 
